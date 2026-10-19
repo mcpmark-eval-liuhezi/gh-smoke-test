@@ -1,0 +1,11 @@
+name: Smoke Test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Greeting
+        run: echo "Hello from the automation dry run!"
